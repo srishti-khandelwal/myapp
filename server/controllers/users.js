@@ -44,7 +44,7 @@ module.exports = {
 },
 
   login(req, res) {
-    console.log('Password here: ', req.p);
+    console.log('Password here is equal to: ', req.p);
     // res.status(200).send({
     //        message: 'You have successfully logged in ',
     //     });
